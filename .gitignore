@@ -50,3 +50,9 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
+
+#virtural envs
+.venv/
+
+#vscode setting
+.vscode/

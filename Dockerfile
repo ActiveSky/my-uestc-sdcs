@@ -13,6 +13,6 @@ RUN pip3 install -r requirements.txt
 
 COPY simplekv simplekv
 
-WORKDIR simplekv
+WORKDIR /tmp/simplekv
 ENTRYPOINT ["python3", "app.py"]
 CMD ["--host", "(host)", "--all-hosts", "(host1)", "(host2)", "(host3)"]
