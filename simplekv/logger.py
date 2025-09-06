@@ -23,7 +23,7 @@ class Logger(object):
         self.logger.info(x)
         
     def warn(self, x):
-        self.logger.warn(x)
+        self.logger.warning(x)
         
     def error(self, x):
         self.logger.error(x)

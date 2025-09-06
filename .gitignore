@@ -56,3 +56,6 @@ docs/_build/
 
 #vscode setting
 .vscode/
+
+#add my test folder
+my_test/
