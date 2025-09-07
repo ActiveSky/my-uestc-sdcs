@@ -41,7 +41,7 @@ Also,you can first **build** the project and then **run** it.
 ### 4. Restart the project
 
 ```bash
-scripts/run_and_restart.sh
+./scripts/run_and_restart.sh
 ```
 
 
