@@ -28,7 +28,7 @@ Also,you can first **build** the project and then **run** it.
 ### 3. Test
 
 ```bash
-tests/sdcs-test.sh
+./tests/sdcs-test.sh 3
 ```
 
 
