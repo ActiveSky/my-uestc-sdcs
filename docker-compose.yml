@@ -1,7 +1,7 @@
 version: '2.2'
 services:
   server1:
-    image: koorye/simplekv:v2
+    image: mysimplekv:v1
     container_name: server1
     environment:
     - TZ=Asia/Shanghai
@@ -15,7 +15,7 @@ services:
     - "9529"
 
   server2:
-    image: koorye/simplekv:v2
+    image: mysimplekv:v1
     container_name: server2
     environment:
     - TZ=Asia/Shanghai
@@ -29,7 +29,7 @@ services:
     - "9529"
 
   server3:
-    image: koorye/simplekv:v2
+    image: mysimplekv:v1
     container_name: server3
     environment:
     - TZ=Asia/Shanghai
