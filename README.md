@@ -6,6 +6,9 @@
 
 ```bash
 chmod  -R +x ./scripts
+chmod  -R +x ./tests
+chmod  +x Dockerfile
+chmod  +x docker-compose.yml
 ```
 
 ### 2. Build and run
@@ -22,6 +25,12 @@ Also,you can first **build** the project and then **run** it.
 ./scripts/build.sh
 ./scripts/run_and_restart.sh
 ```
+### 3. Test
+
+```bash
+tests/sdcs-test.sh
+```
+
 
 ### 3. Stop the project
 
