@@ -1,6 +1,5 @@
 FROM ubuntu:20.04
 
-MAINTAINER Koorye <a1311586225@gmail.com>
 
 COPY requirements.txt /tmp
 WORKDIR /tmp
